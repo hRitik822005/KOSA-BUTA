@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #293739;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    /* background-image: url("About_img.avif"); */
+}
+
+#about-section {
+    background-color: rgb(251, 244, 244);
+    padding: 20px;
+}
+
+.about-content {
+    height: 5rem;
+    margin: 20px 20px 100px 20px;
+    color: rgb(32, 31, 31);
+    /* background: linear-gradient(to right, #fdf0d5, #f5ebe0, #e9edc9, #8ab17d, #f4a261, #e76f51);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-size: 60px;
+    padding: 10px 0px 0px 30px;
+    
+}
+
+.description p {
+    margin: 0px 200px;
+    color: rgb(16, 16, 16);
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0px 50px;
+    text-indent: 2em;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    /*border: 2px solid rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2); */
+}
+
+.description h3 {
+    margin: 100px 0px 20px;
+    padding-left: 150px;
+    color: rgb(52, 50, 50);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: rgb(45, 44, 44);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-style: italic; 
+}
+
+.description .tagline {
+    margin: 100px;
+    color: rgb(16, 16, 16);
+    /* background: linear-gradient(to right, #40ffaa, #4079ff, #40ffaa, #4079ff, #40ffaa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px; */
+    line-height: 1.6;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: #232f3e;
+}
+
+#move-top {
+    background-color: #0f1111;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.move-top-link {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-content {
+    background-color: #232f3e;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #f4f4f4;
+    margin: 50px 0px 0px;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.social-link {
+    text-decoration: none;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    margin: 10px 0;
+    padding-left: 5px;
+}
+
+.copyright {
+    margin-top: 60px;
+    padding-top: 1rem;
+    background-color: rgb(64, 61, 65);
+    height: 2rem;
+}
+
+i {
+    font-size: 20px;
+}
+
+.connect {
+    font-size: 20px;
+    font-weight: bold;
+}

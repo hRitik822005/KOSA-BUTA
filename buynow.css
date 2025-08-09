@@ -1,0 +1,258 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+}
+
+/* Nav Bar Section */
+
+#nav-bar {
+    height: 70px;
+    background-color: #293739;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    background-color: #1c1515;
+    border-radius: 5px;
+}
+
+.nav-lists {
+    margin-top: 18px;
+}
+
+#search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    margin-right: 20px;
+    align-items: center;
+    float: right;
+}
+
+#search-bar input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.search-button {
+    padding: 10px 15px;
+    background-color: #f3f3f3;
+    color: black;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #b9b2b2;
+}
+
+.nav-link i {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+/* Address Section */
+#address-container {
+    width: 50rem;
+    margin: 150px 20px 70px 30px;
+    padding: 30px;
+    border: 2px solid rgb(96, 96, 96);
+    border-radius: 5px;
+    line-height: 50px;
+}
+
+#buy-container {
+    min-height: 20rem;
+    width: 60rem;
+    margin: 50px 30px;
+    padding: 24px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+
+.buy-details {
+    width: 50rem;
+    display: flex;
+    gap: 3rem;
+    margin: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    padding: 24px 24px 24px 60px;
+}
+
+.buy-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.buy-btn {
+    margin: 20px 0px 0px 50rem;
+    padding: 7px 15px;
+    color: aliceblue;
+    border: none;
+    border-radius: 2px;
+    background-color: #293739;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    color: #4f46d4;
+}
+
+.right-section div {
+    font-size: 30px;
+}
+
+.product-price {
+    color: red;
+    margin-top: 20px;
+}
+
+/* Price Section */
+#price-container {
+    height: 22rem;
+    width: 55.4rem;
+    margin: 150px 30px 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+
+.price-para p {
+    margin-top: 2rem;
+    padding: 20px;
+    color: #525252;
+    font-weight: bold;
+}
+
+.price-details {
+    display: flex;
+    padding: 20px;
+}
+
+.price-dsc {
+    line-height: 3;
+    font-size: 20px;
+}
+
+.price-num {
+    text-align: right;
+    line-height: 3;
+    margin-left: 35rem;
+    font-size: 20px;
+}
+
+.total-amount-section {
+    display: flex;
+}
+
+.total-amount {
+    margin: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.total-amount p {
+    display: flex;
+}
+
+.total-amount-price {
+    text-align: right;
+    margin: 1rem;
+    margin-left: 39rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: #232f3e;
+}
+
+#move-top {
+    background-color: #0f1111;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.move-top-link {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-content {
+    background-color: #232f3e;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #f4f4f4;
+    margin: 50px 0px 0px;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.social-link {
+    text-decoration: none;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    margin: 10px 0;
+    padding-left: 5px;
+}
+
+.copyright {
+    margin-top: 60px;
+    padding-top: 1rem;
+    background-color: rgb(64, 61, 65);
+    height: 2rem;
+}
+
+i {
+    font-size: 20px;
+}
+
+.connect {
+    font-size: 20px;
+    font-weight: bold;
+}
